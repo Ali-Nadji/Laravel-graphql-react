@@ -1,0 +1,146 @@
+.ag-row-hover {
+  /* putting in !important so it overrides the theme's styling as it hovers the row also */
+  background-color: #d7f5f0 !important;
+}
+
+.ag-row-selected {
+  background-color: #d7f5f0!important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #39cfb4;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.ag-header-cell-label .ag-header-cell-text{
+  color:#39cfb4;
+
+}
+.ag-body-viewport.ag-layout-auto-height .ag-center-cols-clipper, .ag-body-viewport.ag-layout-auto-height .ag-center-cols-container {
+  min-height: 250px;
+}
+.ag-theme-material .ag-row.ag-row-last{
+  border-bottom:none;
+}
+
+.img-grid{
+  width:200px;
+  margin-bottom:10%;
+}
+.label-img{
+  font-size: 16px!important;
+}
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+.ag-header {
+  display:none;
+}
+.MuiPaper-elevation4-51{
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+}
+.MuiTab-root-45 {
+  color: #212529;
+  font-size: 12.5px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.TabIndicator-colorPrimary-61 {
+  background-color: #39cfb4;
+}
+
+.MuiTab-textColorPrimary-48.MuiTab-selected-50{
+  color: #39cfb4;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.MuiPaper-elevation4-15{
+  box-shadow: none;
+
+}
+
+.MuiButtonBase-root-57 {
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  border-radius: 0;
+  vertical-align: middle;
+  justify-content: center;
+  background-color: #f4f8f9;
+}
+.MuiTab-root-81 {
+  background-color: #f4f8f9;
+}
+
+.MuiTabs-flexContainer {
+  display: flex;
+  background-color: #f4f8f9;
+}
+
+.MuiTypography-body1-79 {
+  font-weight: 300;
+  color: #39cfb4;
+  background-color: white;
+  padding: 0px !important;
+  text-align: center;
+}
+
+.ag-theme-material {
+  font-size: 13px;
+}
+
+.ag-theme-material .ag-header {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+
+}
+
+#dashboard {
+  font-family: Roboto, Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none;
+}
+
+.MuiTabs-indicator {
+  background-color: #39cfb4;
+}
+
+.backButton {
+  background-color: #ccd6d9;
+  margin: 1%;
+  margin-left: 0%;
+  box-shadow: none;
+}
+
+.details{
+  padding-left: 6%;
+}
+
+table th {
+  padding-left: 2%;
+}
+
+table tr td {
+  padding-left: 2%;
+}
+
+textarea{
+    height:100px;
+
+}
+
+.ag-root-wrapper-body {
+  height: 440px;
+}
+
+.ag-row:hover {
+  cursor: pointer;
+}

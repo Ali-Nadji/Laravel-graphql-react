@@ -1,0 +1,369 @@
+
+
+.clickableCard {
+    cursor: pointer;
+}
+
+.box-header:before,.box-body:before,.box-footer:before,.box-header:after,.box-body:after,.box-footer:after {
+    content: " ";
+    display: table
+}
+
+.box-header:after,.box-body:after,.box-footer:after {
+    clear: both
+}
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative
+}
+
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4
+}
+
+.collapsed-box .box-header.with-border {
+    border-bottom: none
+}
+
+.box-header>.fa,.box-header>.glyphicon,.box-header>.ion,.box-header .box-title {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1
+}
+
+.box-header>.fa,.box-header>.glyphicon,.box-header>.ion {
+    margin-right: 5px
+}
+
+.box-header>.box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px
+}
+
+.box-header>.box-tools [data-toggle="tooltip"] {
+    position: relative
+}
+
+.box-header>.box-tools.pull-right .dropdown-menu {
+    right: 0;
+    left: auto
+}
+
+.box-header>.box-tools .dropdown-menu>li>a {
+    color: #444!important
+}
+
+.btn-box-tool {
+    padding: 5px;
+    font-size: 12px;
+    background: transparent;
+    color: #97a0b3
+}
+
+
+
+.mini-mini-stat-icon {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.bg-primary-1 {
+    background-color: #b54ac1 !important;
+}
+.bg-primary-2 {
+    background-color: #4a6ec1 !important;
+}
+.bg-primary-3 {
+    background-color: #c1774a !important;
+}
+.bg-primary-4 {
+    background-color: #c14a4a !important;
+}
+
+.client-details img {
+    position: relative;
+    z-index: 9999;
+    height: 30px;
+}
+
+.client-details .user-info {
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+div.dt-buttons >.btn {
+    font-size:10px;
+}
+.pagination {
+    font-size:12px;
+}
+.dataTables_info {
+    font-size:11px;
+    color:#6c757d;
+}
+
+.card-dashboard {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem;
+}
+
+#preloader {
+    top: 100px;
+    left: 250px;
+}
+
+.tabBody{
+    display:none; /*hide all tabBody, we are showing first one using jquery*/
+}
+
+.tabBody.active {
+    display:flex; /*show tabBody*/
+}
+
+.btn-xsm {
+    padding: .25rem .5rem;
+    font-size: .7rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.tabDashboard {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    font-size: 12.5px;
+    display: block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.tabDashboard > p {
+    margin-bottom: 0.3rem;
+}
+
+.tabDashboard.active {
+    color: #39cfb4;
+    border-bottom: 2px solid #39cfb4;
+}
+
+
+.m-t-60 {
+    margin-top: 60px;
+}
+
+.circle-name {
+    border-radius: 50%!important;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    text-align: center;
+    color: #39cfb4;
+    border: 2px solid #39cfb4;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.tableDashboard {
+    border-collapse: separate;
+    /* border-spacing: 5em; */
+    border-spacing: 0px 9px;
+    /* box-shadow: 0 2px 5px 0 rgba(74, 144, 226, 0.1), inset 0 0 0 0.1px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 100%;
+}
+
+.tableDashboard >tbody > tr {
+    box-shadow: 0 2px 5px 0 rgba(74, 144, 226, 0.1), inset 0 0 0 0.1px rgba(0, 0, 0, 0.1);
+    height: 65px;
+    background-color: white;
+}
+
+span.tabItemTop {
+    color: #616770;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+div.tabItemBottom {
+    line-height: 30px;
+}
+
+span.tabItemBottom {
+    line-height: 30px;
+    font-size: 12.5px;
+    font-weight: 300;
+    color:#616770;
+}
+
+span.tabItemEmail {
+    font-size: 12px;
+    color: #616770;
+}
+
+span.tabItemName {
+    font-size:19px;
+    color:black;
+}
+span.tabItemName:focus {
+    color:black;
+}
+span.tabItemName:hover {
+    color:black;
+}
+
+
+.tabBtnAction {
+    border-bottom: 2px solid black;
+    padding: .2rem .5rem;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.2);
+    width: 22.5px;
+    height: 22.5px;
+    padding: 0px;
+}
+
+.tabBtnAction:focus {
+    box-shadow:none;
+}
+
+.tabItemBottom.dropdown {
+    display: inline-block;
+    float: right;
+    padding-right: 3%;
+}
+
+td.tabAction {
+    text-align: right;
+    padding-right: 15px;
+}
+
+a.tabAction:hover {
+    color: #39cfb4;
+}
+
+a.tabAction {
+    font-size: 12px;
+}
+
+a.tabAction > i {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.colorBlack {
+    color:black;
+}
+
+.colorYelow {
+    color: #ffbd22;
+}
+
+.colorRed {
+    color: #df5050;
+}
+
+.colorPrimary {
+    color: #39cfb4;
+}
+
+.cardHelp {
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(74, 144, 226, 0.1), inset 0 0 0 0.1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px 0 rgba(74, 144, 226, 0.1), inset 0 0 0 0.1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px;
+}
+
+.cardHelpHeader {
+    margin-left: -30px;
+    background-color: white;
+    border-left: 2px solid #39cfb4;
+    border-radius: 4px;
+    font-size: 12.5px;
+    font-weight: normal;
+}
+
+.cardHelpBody {
+    background-color: white;
+    font-size: 12.5px;
+    font-weight: 300;
+    color: #2a3748;
+}
+
+.dataTables_wrapper {
+    overflow-x: auto;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.dt-buttons {
+    float:right;
+    margin-right: 30px;
+}
+
+.buttons-html5 {
+    border: none;
+    margin-right: 5px;
+    border-bottom: 1px solid #39cfb4;
+    border-radius: 0px;
+}
+
+.buttons-html5:hover, .buttons-html5:active {
+    background-color: white;
+    color : #39cfb4;
+    border:none;
+    border-bottom: 2px solid #39cfb4;
+    border-radius: 0px;
+}
+
+.buttons-colvis {
+    border: none;
+    margin-right: 5px;
+    border-bottom: 1px solid #39cfb4;
+    border-radius: 0px;
+}
+
+.buttons-colvis:hover,.buttons-colvis:active {
+    background-color: white;
+    color : #39cfb4;
+    border:none;
+    border-bottom: 2px solid #39cfb4;
+    border-radius: 0px;
+}
+
+.modal-header {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border:none;
+}
+
+.modal-body {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.modal-footer {
+    border:none;
+    text-align: center;
+    display : block;
+}
+
+h4 {
+    font-size:1em;
+}
